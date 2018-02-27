@@ -1,0 +1,6 @@
+#!/bin/sh
+
+
+cmd="node $1 > logfiles/log.log 2> logfiles/err.log "
+echo "$cmd"
+eval $cmd
