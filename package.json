@@ -1,0 +1,26 @@
+{
+  "name": "error-help",
+  "version": "1.0.0",
+  "description": "helps find solutions to node errors by searching SO and Github for you",
+  "main": "intercept.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boehm-s/node-error-help.git"
+  },
+  "author": "Steven BOEHM <boehm_s@seed-up.io> (https://stackoverflow.com/users/4756304/boehm-s?tab=profile)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boehm-s/node-error-help/issues"
+  },
+  "homepage": "https://github.com/boehm-s/node-error-help#readme",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "request": "^2.83.0",
+  }
+}
